@@ -1,0 +1,8 @@
+name: Solipsism Studio
+markdown: redcarpet
+permalink: pretty
+
+exclude:
+  - README.md
+  - LICENSE.md
+  - Gemfile
