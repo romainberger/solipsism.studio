@@ -35,11 +35,22 @@ ul {
 /* Header */
 .header {
   padding: 20px 0;
+  font-size: 0;
+}
+
+.header div {
+  display: inline-block;
+  width: 50%;
+  padding: 0 20px;
+  vertical-align: middle;
+}
+
+.header .header-right {
+  text-align: right;
 }
 
 .header h1 {
   margin: 12px 0;
-  text-align: center;
   font-size: 26px;
   text-transform: uppercase;
   font-weight: lighter;
@@ -48,7 +59,6 @@ ul {
 }
 
 .header ul {
-  text-align: center;
   font-size: 0;
 }
 
@@ -73,6 +83,15 @@ ul {
 /* Footer */
 .footer {
   text-align: center;
+}
+
+/* Home */
+.home-bg {
+  width: 100%;
+  height: 0;
+  padding-bottom: 56%;
+  background: url(/images/home.jpg) center center;
+  background-size: cover;
 }
 
 /* Clients */
