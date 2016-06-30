@@ -10,6 +10,8 @@ html,
 body {
   height: 100%;
   min-height: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 body {
@@ -122,6 +124,33 @@ ul {
   margin: 50px 0;
 }
 
+/* General */
+.container {
+  width: 100%;
+  padding: 0 20px;
+}
+
+.container h1 {
+  margin-bottom: 20px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+.container h2 {
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+.basic-list {
+  padding-left: 20px;
+  margin-bottom: 15px;
+  list-style: disc;
+}
+
+.basic-list li {
+  padding: 5px 0;
+}
+
 /* Home */
 .home-bg {
   width: 100%;
@@ -131,7 +160,7 @@ ul {
   background-size: cover;
 }
 
-/* Clients */
+/* Videos */
 .video-list li {
   padding: 20px;
   border-bottom: 1px solid #bbb;
@@ -145,4 +174,29 @@ ul {
 .video-list ifram {
   display: inline-block;
   float: right;
+}
+
+/* Clients */
+.clients-container {
+  font-size: 0;
+}
+.clients-container div {
+  display: inline-block;
+  width: 50%;
+  font-size: 14px;
+  vertical-align: top;
+}
+
+.clients-container .clients-img {
+  font-size: 0;
+}
+
+.clients-container .clients-img li {
+  display: inline-block;
+  width: calc(50% - 20px);
+  margin: 10px;
+}
+
+.clients-container .clients-img img {
+  width: 100%;
 }
