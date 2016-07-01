@@ -1,4 +1,4 @@
-# solipsism.studio
+# [solipsism.studio](http://solipsism.studio/)
 
 ## Development
 
