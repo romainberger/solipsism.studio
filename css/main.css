@@ -34,10 +34,6 @@ ul {
   list-style: none;
 }
 
-.container {
-  width: 100%;
-}
-
 /* Header */
 .header {
   position: relative;
@@ -133,7 +129,9 @@ ul {
 /* General */
 .container {
   width: 100%;
+  max-width: 1200px;
   padding: 0 20px;
+  margin: 0 auto;
 }
 
 .container h1 {
@@ -259,4 +257,33 @@ ul {
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: lighter;
+}
+
+@media (min-width: 500px) {
+  .visible-sm {
+    display: none !important;
+  }
+}
+
+@media (max-width: 500px) {
+  .visible-md {
+    display: none !important;
+  }
+
+  .video-list h3 {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .video-list .video {
+    display: block;
+    width: 100%;
+  }
+}
+
+@media (max-width: 700px) {
+  .header li {
+    display: block;
+  }
 }
