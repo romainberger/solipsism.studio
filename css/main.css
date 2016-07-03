@@ -45,12 +45,16 @@ ul {
 
 .header div {
   display: inline-block;
-  width: 50%;
   padding: 0 20px;
   vertical-align: middle;
 }
 
+.header .menu {
+  width: 70%;
+}
+
 .header .header-right {
+  width: 30%;
   text-align: right;
 }
 
@@ -285,5 +289,10 @@ ul {
 @media (max-width: 700px) {
   .header li {
     display: block;
+  }
+
+  .header .menu,
+  .header .header-right {
+    width: 50%;
   }
 }
