@@ -257,10 +257,25 @@ ul {
 }
 
 /* Post */
+.post {
+  padding-bottom: 60px;
+  margin-bottom: 70px;
+  border-bottom: 1px solid #333;
+}
+
 .post h2 {
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: lighter;
+  font-size: 22px;
+}
+
+.post .content {
+  font-size: 15px;
+}
+
+.post .content p {
+  margin-bottom: 15px;
 }
 
 @media (min-width: 500px) {
