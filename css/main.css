@@ -130,6 +130,20 @@ ul {
   margin: 50px 0;
 }
 
+.footer ul {
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+}
+
+.footer li {
+  display: inline-block;
+}
+
+.footer li:first-child {
+  margin-right: 50px;
+}
+
 /* General */
 .container {
   width: 100%;
