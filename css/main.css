@@ -209,6 +209,15 @@ ul {
   letter-spacing: 2px;
 }
 
+/* 404 */
+
+.not-found {
+  position: relative;
+  padding-top: 20px;
+  z-index: 10;
+  text-align: center;
+}
+
 /* Services */
 .services .service {
   margin-bottom: 30px;
