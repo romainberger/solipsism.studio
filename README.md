@@ -6,6 +6,12 @@
 # install dependencies
 $ bundle install
 
+# install more dependencies
+$ npm install
+
 # run development server
-$ jekyll serve --watch
+$ npm start
+
+# minify css
+$ npm run css
 ```

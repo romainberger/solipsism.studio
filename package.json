@@ -1,0 +1,23 @@
+{
+  "name": "solipsism.studio",
+  "version": "1.0.0",
+  "description": "Code for http://solipsism.studio",
+  "scripts": {
+    "build": "npm run css",
+    "css": "cleancss -o css/main.css css/_main.css",
+    "start": "bundle exec jekyll serve --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/romainberger/solipsism.studio.git"
+  },
+  "author": "Romain Berger",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/romainberger/solipsism.studio/issues"
+  },
+  "homepage": "https://github.com/romainberger/solipsism.studio#readme",
+  "devDependencies": {
+    "clean-css": "^3.4.19"
+  }
+}
