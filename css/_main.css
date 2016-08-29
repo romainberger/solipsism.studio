@@ -41,25 +41,15 @@ ul {
 /* Header */
 .header {
   position: relative;
-  padding: 20px 0;
+  padding: 30px 0;
   font-size: 0;
   z-index: 10;
   background: linear-gradient(0, rgba(0, 0, 0, 0), rgba(0, 0, 0, .4) 20%, rgba(0, 0, 0, .9));
 }
 
-.header div {
-  display: inline-block;
-  padding: 0 20px;
-  vertical-align: middle;
-}
-
-.header .menu {
-  width: 70%;
-}
-
-.header .header-right {
-  width: 30%;
-  text-align: right;
+.header .header-logo {
+  margin-bottom: 30px;
+  text-align: center;
 }
 
 .header h1 {
@@ -73,8 +63,6 @@ ul {
 
 .header h1 a {
   color: #fff;
-  opacity: .7;
-  transition: opacity .2s;
 }
 
 .header h1 a:hover {
@@ -83,6 +71,7 @@ ul {
 
 .header ul {
   font-size: 0;
+  text-align: center;
 }
 
 .header li {
@@ -212,7 +201,7 @@ ul {
 .home-text {
   position: relative;
   padding: 20px 100px;
-  margin: 100px 0;
+  margin: 100px auto;
   letter-spacing: 2px;
   background: rgba(0, 0, 0, .7);
   box-shadow: 0 0 3px rgba(0, 0, 0, .7);
@@ -288,6 +277,12 @@ ul {
   font-weight: normal;
   letter-spacing: 2px;
   text-align: right;
+}
+
+.past-work-list h4 {
+  margin-bottom: 10px;
+  font-size: 12px;
+  color: #fff;
 }
 
 .past-work-list li:nth-child(even) h3 {
