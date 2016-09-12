@@ -242,6 +242,11 @@ ul {
   letter-spacing: 2px;
 }
 
+.service ul {
+  padding-left: 20px;
+  list-style: disc;
+}
+
 .service-img {
   width: 100%;
   height: 40px;
@@ -254,6 +259,10 @@ ul {
 
 .service-img .service-img-master {
   background: url(/images/service-master.jpg) center center;
+}
+
+.service-img .service-img-editing {
+  background: url(/images/service-editing.jpg) center center;
 }
 
 .service-img .service-img-drum {
