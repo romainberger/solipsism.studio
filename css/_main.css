@@ -395,11 +395,16 @@ ul {
     display: block;
     width: 100%;
   }
+  .past-work-list.download-list .past-work div {
+    height: inherit;
+    padding-bottom: 0;
+  }
 }
 
 @media (max-width: 700px) {
   .header li {
     display: block;
+    padding: 0;
   }
 
   .header .menu,
