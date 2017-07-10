@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  <url>
+    <loc>http://solipsism.studio/</loc>
+    <lastmod>2017-07-10T10:16:52+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://solipsism.studio/news</loc>
+    <lastmod>2017-07-10T10:16:52+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://solipsism.studio/services</loc>
+    <lastmod>2017-07-10T10:16:52+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://solipsism.studio/showreel</loc>
+    <lastmod>2017-07-10T10:16:52+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://solipsism.studio/clients</loc>
+    <lastmod>2017-07-10T10:16:52+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://solipsism.studio/past-work</loc>
+    <lastmod>2017-07-10T10:16:52+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://solipsism.studio/downloads</loc>
+    <lastmod>2017-07-10T10:16:52+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://solipsism.studio/contact</loc>
+    <lastmod>2017-07-10T10:16:52+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://solipsism.studio/checklist</loc>
+    <lastmod>2017-07-10T10:16:52+00:00</lastmod>
+  </url>
+</urlset>
